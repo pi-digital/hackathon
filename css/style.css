@@ -563,6 +563,7 @@ main {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url('../img/background2.jpg');
+	background-color: rgb(36, 16, 71, 0.5);
 }
 .content {
 	position: relative;
