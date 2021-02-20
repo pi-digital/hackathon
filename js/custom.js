@@ -87,7 +87,7 @@
 		//Countdown
 		
         $('.countdown').downCount({
-            date: '04/05/2021 09:00:00'
+            date: '12/12/2021 09:00:00'
         });
 
 		
