@@ -562,7 +562,7 @@ main {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	!background-image: url('../img/background2.jpg');!
+	!background-image: url('https://pi-digital.github.io/hackathon/img/background2.jpg');!
 	background-color: rgb(36, 16, 71);
 }
 .content {
