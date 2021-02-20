@@ -938,7 +938,7 @@ ul.countdown li span {
 	margin: 0;
 	-webkit-text-fill-color: transparent;
 	background: -webkit-linear-gradient(transparent, transparent),
-             url('../img/let.jpg') repeat;
+             url('https://github.com/pi-digital/hackathon/img/let.jpg') repeat;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
 	background-position:center center;
