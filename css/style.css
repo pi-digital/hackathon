@@ -119,7 +119,7 @@ p {
 /* #Primary style
 ================================================== */
 
-.section {
+.section-hack {
     position: relative;
 	width: 100%;
 	display: block;
