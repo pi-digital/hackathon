@@ -565,7 +565,7 @@ maint {
 	!background-image: url('https://pi-digital.github.io/hackathon/img/background2.jpg');!
 	background-color: rgb(36, 16, 71);
 }
-.contenthack-hack {
+.content-hack {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -575,7 +575,7 @@ maint {
 	overflow: hidden;
 }
 
-.contenthack--reveal {
+.content--reveal {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -584,7 +584,7 @@ maint {
 	pointer-events: none;
 }
 
-.contenthack__inner {
+.content__inner {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -592,12 +592,12 @@ maint {
 	display: block;
 	overflow: hidden;
 }
-.js .contenthack__inner {
+.js .content__inner {
 	opacity: 0;
 	transition: opacity 0.3s;
 }
 
-.contenthack__title {
+.content__title {
 	width: 100%;
 	margin: 0;
 	color: var(--color-title);
@@ -609,7 +609,7 @@ maint {
 	text-align: left;
 }
 
-.contenthack__subtitle  {
+.content__subtitle  {
 	text-align: left;
 	font-size: 1.25em;
 	line-height: 1.25;
@@ -617,7 +617,7 @@ maint {
 	margin: 0 auto;
 	color: var(--color-subtitle);
 }
-.contenthack__close {
+.content__close {
 	position: absolute;
 	top: 70px;
 	left: 40px;
@@ -635,10 +635,10 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.contenthack__close:focus {
+.content__close:focus {
 	outline: none;
 }
-.contenthack__close:before {
+.content__close:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -653,11 +653,11 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.contenthack__close:hover:before {
+.content__close:hover:before {
 	left: -100%;
 	opacity: 0;
 }
-.contenthack__close:after {
+.content__close:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -672,7 +672,7 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.contenthack__close:hover:after {
+.content__close:hover:after {
 	left: 0;
 	opacity: 1;
 }
@@ -1600,17 +1600,17 @@ ul.countdown li p {
 		letter-spacing: 1px;
 		margin-top: 15px;
 	}
-	.contenthack__close {
+	.content__close {
 		top: 20px;
 		left: 50%;
 		margin-left: -18px;
 		width: 36px;
 		height: 36px;
 	}
-	.contenthack__close:before {
+	.content__close:before {
 		background-size: 36px 36px;
 	}
-	.contenthack__close:after {
+	.content__close:after {
 		background-size: 36px 36px;
 	}
 	.scene .blob-1,
@@ -1621,7 +1621,7 @@ ul.countdown li p {
 	.scene .blob-6{
 		opacity: 0;
 	}
-	.contenthack__inner {
+	.content__inner {
 		background-color: #111;
 	}
 }
