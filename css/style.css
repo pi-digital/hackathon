@@ -1096,7 +1096,7 @@ ul.countdown li p {
 	display: block;
 	border-radius: 5px;
 	border: 5px solid rgba(255,255,255,.5);
-	padding: 30px;
+	padding: 30px 30px 60px 30px;
 	background: linear-gradient(45deg, rgba(255,255,255,.04), rgba(255,255,255,.3));
 }
 .pass-wrap p{
