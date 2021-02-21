@@ -556,16 +556,16 @@ a:focus {
 	fill: currentColor;
 }
 
-maint {
+main {
 	position: relative;
 	width: 100%;
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url('https://pi-digital.github.io/hackathon/img/background.jpg');
+	!background-image: url('../img/background2.jpg');!
 	background-color: rgb(36, 16, 71);
 }
-.content-hack {
+.content {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -747,7 +747,7 @@ maint {
 .empty-space{
 	color: transparent;
 }
-.menu-hack {
+.menu {
 	position: relative;
 	z-index: 4;
 	display: flex;
@@ -758,7 +758,7 @@ maint {
 	margin-top: -50px;
 	align-items: flex-start;
 }
-.menu-hack__item {
+.menu__item {
 	color: var(--color-menu);
 	line-height: 1.1;
 	text-transform: lowercase;
@@ -775,12 +775,12 @@ maint {
 	padding:0;
 	margin: 12px 0;
 }
-.menu-hack__item:hover,
-.menu-hack__item:focus {
+.menu__item:hover,
+.menu__item:focus {
 	color: var(--color-menu-hover);
 }
 
-.menu-hack__item::before {
+.menu__item::before {
 	content: '';
 	width: 40%;
 	height: 10px;
@@ -791,32 +791,32 @@ maint {
 	transform-origin: 0 0;
 	transform: scale3d(0,1,1);
 }
-.menu-hack__item:nth-child(2)::before {
+.menu__item:nth-child(2)::before {
 	background: linear-gradient(45deg, #0947db, #07d89d);
 }
 
-.menu-hack__item:nth-child(3)::before {
+.menu__item:nth-child(3)::before {
 	background: linear-gradient(45deg, #ee2d29, #f8ae2c);
 }
 
-.menu-hack__item:nth-child(4)::before {
+.menu__item:nth-child(4)::before {
 	background: linear-gradient(45deg, #3a3d98, #6f22b9);
 }
 
-.menu-hack__item:nth-child(5)::before {
+.menu__item:nth-child(5)::before {
 	background: linear-gradient(45deg, #9d316e, #de2d3e);
 }
-.menu-hack__item--showDeco:hover::before {
+.menu__item--showDeco:hover::before {
     transition: transform 0.8s cubic-bezier(0.2,1,0.3,1);
     transform: scale3d(2.5,1,1);
 }
-.menu-hack__item--showDeco::before {
+.menu__item--showDeco::before {
     transition: transform 0.8s cubic-bezier(0.2,1,0.3,1);
     transform: scale3d(1,1,1);
 }
 
 
-.menu-hack__item span {
+.menu__item span {
 	display: block;
 	position: relative;
 }
@@ -938,7 +938,7 @@ ul.countdown li span {
 	margin: 0;
 	-webkit-text-fill-color: transparent;
 	background: -webkit-linear-gradient(transparent, transparent),
-             url('https://github.com/pi-digital/hackathon/img/let.jpg') repeat;
+             url('../img/let.jpg') repeat;
 	background: -o-linear-gradient(transparent, transparent);
 	-webkit-background-clip: text;
 	background-position:center center;
@@ -1641,31 +1641,31 @@ ul.countdown li p {
 		-ms-transform: translateX(-50%);
 		transform: translateX(-50%);
 	}
-	.menu-hack {
+	.menu {
 		margin: 0 0 0 0;
 		font-size: 4vw;
 		margin-top: -160px;
 		align-items: center;
 	}
-	.menu-hack__item {
+	.menu__item {
 		line-height: 1;
 		margin: 10px 0;
 	}
 
-	.menu-hack__item::before {
+	.menu__item::before {
 		width: 100%;
 		transition: all 300ms linear;
 	}
-	.menu-hack__item--showDeco:hover::before {
+	.menu__item--showDeco:hover::before {
 		transform: scale3d(1,-1.4,1);
 	}
 }
 
 @media (max-width: 767px) {
-	.menu-hack {
+	.menu {
 		font-size: 6vw;
 	}
-	.menu-hack__item {
+	.menu__item {
 		margin: 5px 0;
 	}
 	.ticket p {
