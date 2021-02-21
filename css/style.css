@@ -565,7 +565,7 @@ main {
 	!background-image: url('../img/background2.jpg');!
 	background-color: rgb(36, 16, 71);
 }
-.content {
+.content-hack {
 	position: relative;
 	display: flex;
 	justify-content: center;
