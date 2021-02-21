@@ -565,7 +565,7 @@ maint {
 	!background-image: url('https://pi-digital.github.io/hackathon/img/background2.jpg');!
 	background-color: rgb(36, 16, 71);
 }
-.content {
+.conten-hack {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -575,7 +575,7 @@ maint {
 	overflow: hidden;
 }
 
-.content--reveal {
+.content-hack--reveal {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -584,7 +584,7 @@ maint {
 	pointer-events: none;
 }
 
-.content__inner {
+.content-hack__inner {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -592,12 +592,12 @@ maint {
 	display: block;
 	overflow: hidden;
 }
-.js .content__inner {
+.js .content-hack__inner {
 	opacity: 0;
 	transition: opacity 0.3s;
 }
 
-.content__title {
+.content-hack__title {
 	width: 100%;
 	margin: 0;
 	color: var(--color-title);
@@ -609,7 +609,7 @@ maint {
 	text-align: left;
 }
 
-.content__subtitle  {
+.content-hack__subtitle  {
 	text-align: left;
 	font-size: 1.25em;
 	line-height: 1.25;
@@ -617,7 +617,7 @@ maint {
 	margin: 0 auto;
 	color: var(--color-subtitle);
 }
-.content__close {
+.content-hack__close {
 	position: absolute;
 	top: 70px;
 	left: 40px;
@@ -635,10 +635,10 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:focus {
+.content-hack__close:focus {
 	outline: none;
 }
-.content__close:before {
+.content-hack__close:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -653,11 +653,11 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:hover:before {
+.content-hack__close:hover:before {
 	left: -100%;
 	opacity: 0;
 }
-.content__close:after {
+.content-hack__close:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -672,7 +672,7 @@ maint {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:hover:after {
+.content-hack__close:hover:after {
 	left: 0;
 	opacity: 1;
 }
@@ -747,7 +747,7 @@ maint {
 .empty-space{
 	color: transparent;
 }
-.menu {
+.menu-hack {
 	position: relative;
 	z-index: 4;
 	display: flex;
@@ -758,7 +758,7 @@ maint {
 	margin-top: -50px;
 	align-items: flex-start;
 }
-.menu__item {
+.menu-hack__item {
 	color: var(--color-menu);
 	line-height: 1.1;
 	text-transform: lowercase;
@@ -775,12 +775,12 @@ maint {
 	padding:0;
 	margin: 12px 0;
 }
-.menu__item:hover,
-.menu__item:focus {
+.menu-hack__item:hover,
+.menu-hack__item:focus {
 	color: var(--color-menu-hover);
 }
 
-.menu__item::before {
+.menu-hack__item::before {
 	content: '';
 	width: 40%;
 	height: 10px;
@@ -791,32 +791,32 @@ maint {
 	transform-origin: 0 0;
 	transform: scale3d(0,1,1);
 }
-.menu__item:nth-child(2)::before {
+.menu-hack__item:nth-child(2)::before {
 	background: linear-gradient(45deg, #0947db, #07d89d);
 }
 
-.menu__item:nth-child(3)::before {
+.menu-hack__item:nth-child(3)::before {
 	background: linear-gradient(45deg, #ee2d29, #f8ae2c);
 }
 
-.menu__item:nth-child(4)::before {
+.menu-hack__item:nth-child(4)::before {
 	background: linear-gradient(45deg, #3a3d98, #6f22b9);
 }
 
-.menu__item:nth-child(5)::before {
+.menu-hack__item:nth-child(5)::before {
 	background: linear-gradient(45deg, #9d316e, #de2d3e);
 }
-.menu__item--showDeco:hover::before {
+.menu-hack__item--showDeco:hover::before {
     transition: transform 0.8s cubic-bezier(0.2,1,0.3,1);
     transform: scale3d(2.5,1,1);
 }
-.menu__item--showDeco::before {
+.menu-hack__item--showDeco::before {
     transition: transform 0.8s cubic-bezier(0.2,1,0.3,1);
     transform: scale3d(1,1,1);
 }
 
 
-.menu__item span {
+.menu-hack__item span {
 	display: block;
 	position: relative;
 }
@@ -1517,22 +1517,22 @@ ul.countdown li p {
 /* #Footer
 ================================================== */
 
-.footer {
+.footer-hack {
 	margin: 0 auto;
 	text-align: center;
 }
-.footer img{
+.footer-hack img{
 	display: block;
 	height: 30px;
 	width: auto;
 	margin: 0 auto;
 	text-align: center;
 }
-.footer p small {
+.footer-hack p small {
 	letter-spacing: 1px;
 	font-weight: 300;
 }	
-.footer .title-page-line	{
+.footer-hack .title-page-line	{
 	opacity: 0.6;
 }
 	
