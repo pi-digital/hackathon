@@ -1525,7 +1525,7 @@ ul.countdown li p {
 	display: block;
 	height: 30px;
 	width: auto;
-	margin: 0 auto;
+	margin: -75px auto -35px auto;
 	text-align: center;
 }
 .footer p small {
