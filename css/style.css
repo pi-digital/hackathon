@@ -57,39 +57,39 @@ body{
 	color: #f1f1f1;
 	overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6{
+h1-hack, h2-hack, h3-hack, h4-hack, h5-hack, h6-hack,
+.h1-hack, .h2-hack, .h3-hack, .h4-hack, .h5-hack, .h6-hack{
 	font-family: 'Poppins', sans-serif;
 	font-weight:400;
 	margin-bottom: 0;
 	line-height: 1.25;
 	color: #fff;
 }
-h1, .h1 {
+h1-hack, .h1-hack {
 	font-size: 6rem;
 	font-weight:500;
 	letter-spacing: 2px;
 	line-height: 1;
 }
-h2, .h2 {
+h2-hack, .h2-hack {
 	font-size: 4.5rem;
 	letter-spacing: 2px;
 	line-height: 1;
 }
-h3, .h3 {
+h3-hack, .h3-hack {
 	font-size: 3.75rem;
 	letter-spacing: 1px;
 	line-height: 1;
 }
-h4, .h4 {
+h4-hack, .h4-hack {
 	font-size: 2.4rem;
 	line-height: 1.1;
 }
-h5, .h5 {
+h5-hack, .h5-hack {
 	font-size: 1.6rem;
 	font-weight:500;
 }
-h6, .h6 {
+h6-hack, .h6-hack {
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	font-weight:600;
