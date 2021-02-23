@@ -1628,7 +1628,8 @@ ul.countdown li p {
 
 @media (max-width: 991px) { 
 	.hero-main-title{
-		display: none;
+		width: 200px;
+		margin-bottom: 375px;
 	}
 	.hero-subtitle{
 		font-size: 8vw;
