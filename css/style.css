@@ -1622,7 +1622,7 @@ ul.countdown li p {
 		opacity: 0;
 	}
 	.content__inner {
-		background-color: #111;
+		background-color: rgb(191, 20, 20);
 	}
 }
 
